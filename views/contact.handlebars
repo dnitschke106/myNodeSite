@@ -1,0 +1,24 @@
+<main class="container fade-in-text">
+        <h2>Contact Page</h2>
+
+        <!-- Existing paragraphs on the page -->
+        <p>Reviews</p>
+        <p>Comments</p>
+        <p>Questions</p>
+
+        <!-- Form for submitting reviews/questions -->
+        <form id="contactForm">
+            <br> 
+            <label for="userName">Name:</label>
+            <input type="text" id="userName" name="userName" required>
+            <br> <br> 
+            <label for="userReview">Review/Question:</label>
+            <textarea id="userReview" name="userReview" required></textarea>
+
+            <button type="button" id="submitButton">Submit Review</button>
+        </form>
+
+        <ul id="reviewList">
+            <!-- Existing reviews/questions will be added here dynamically -->
+        </ul>
+</main>
